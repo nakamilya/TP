@@ -1,0 +1,15 @@
+<div>
+<p *ngFor = "let person of liste" (click)="afficher(person)">{{person.name}}</p>
+
+<div class="conteneur" *ngIf = "name">
+  <p>Name : {{name | uppercase}}</p>
+  <p>Username : {{username}}</p>
+  <p>Phone number : {{phone}}</p>
+  <p>E-mail : {{email}}</p>
+  <p>Website : {{website}}</p>
+</div>
+
+
+
+
+

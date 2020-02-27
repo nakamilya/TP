@@ -1,0 +1,6 @@
+.conteneur{
+  float: left;
+  background-color: rgb(133, 38, 43);
+  outline: 4px dashed rgb(53, 9, 9);
+  color: hsl(0deg, 100%, 100%)
+}
